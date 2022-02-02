@@ -1,0 +1,39 @@
+.formButton 
+{
+	width: 130px;
+	height: 35px;
+	background: #2ecc71;
+	color: white;
+	border-width: 5px;
+	border-radius: 10px;
+	margin: 20px;
+
+}
+.formall
+{
+    font-family: cursive;
+    font-size: x-large;
+    outline-width: thick;
+    outline-style: double;
+    margin: 100px;
+    text-align: center;
+    width: 400px;
+    height: 600px;
+    background-color: #3c6382;
+    padding-right: 440px;
+    padding-left: 460px;
+    border-radius: 50px;
+}
+.forminput
+{
+    text-align: center;
+    margin: 23px;
+    border-style: groove;
+    border-radius: 6px;
+    font-size: x-large;
+}
+.formtittle
+{
+	color: darksalmon;
+	outline: 6px;
+}

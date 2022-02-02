@@ -1,0 +1,112 @@
+@font-face {
+    font-family: "Minecraftia";
+    src: url("./font/Minecraftia-regular.ttf") format("truetype");
+   }
+
+body{
+    font-family: "Minecraftia";
+    font-size:15px;
+    width: auto;
+    
+}
+
+.global{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin: auto;
+    text-align: initial;
+}
+
+.premierfloor{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.deuxiemefloor{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;
+}
+
+.ID{
+    width: 180px;
+}
+
+.bio{
+    width: 400px;
+}
+
+h4{
+    background-color : black;
+    color: white;
+}
+
+.chiffre{
+    float: left;
+    width: 50px;
+}
+
+.langues{
+    width: 100px;
+    padding-left: 6%;
+}
+
+.specialite2{
+    text-align: center;
+}
+
+.spe{
+    margin-left: -30px;
+    width: 140px;
+}
+
+.hob{
+    padding-left: 6%;
+    width: 90px;
+}
+
+
+.compets{
+    float: right;
+}
+
+.liste{
+    list-style: none;
+}
+
+.contact{
+    font-size: 9px;
+    color: gray;
+    justify-content: space-between;
+    display: flex;
+}
+
+.infos{
+    justify-content: space-between;
+}
+
+.contactmail{
+    display: flex;
+    text-align: right;
+    float: left;
+}
+
+.contactmail1{
+    display: flex;
+    text-align: left;
+    float: right;
+    justify-content: right;
+}
+
+.global .premierfloor .deuxiemefloor{
+    flex-basis: 50%;
+}
+
+@media screen and (max-width: 900px) 
+{
+    .global {flex-direction: column; width: 100%; justify-content: space-evenly;} 
+    .premierfloor .deuxiemefloor {width: 100%; flex-direction: column;}
+}
